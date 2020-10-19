@@ -9,3 +9,7 @@ h2{
 p{
     font-family: sans-serif, Arial, Helvetica;
 }
+
+body{
+    background-color: aqua;
+}
