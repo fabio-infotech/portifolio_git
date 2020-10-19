@@ -1,9 +1,12 @@
+/*TAG STYLE*/
 h1{
     font-family: Arial, Helvetica, sans-serif;
+    color: blue;
 }
 
 h2{
     font-family: sans-serif, Arial, Helvetica;
+    color: blue;
 }
 
 p{
@@ -11,5 +14,60 @@ p{
 }
 
 body{
-    background-color: aqua;
+    background-color: silver;
 }
+
+/*ID STYLE*/
+#Curso_Formatura{
+    font-weight: 600;
+    color: red;
+}
+
+#Cidade_Estado{
+    font-weight: 600;
+    color: red;
+}
+
+#Maravilhosa{
+    font-weight: 600;
+    color: red;
+}
+
+#Hab_Curioso{
+    font-weight: 600;
+    color: red;
+}
+
+#Hab_Atencioso{
+    font-weight: 600;
+    color: red;
+}
+
+/*CLASS STYLE*/
+.Foto{
+    border-radius: 100%;
+}
+
+/* .Hab_Curioso{
+    font-size: 35px;
+}
+
+.Hab_Atencioso{
+    font-size: 35px;
+}
+
+.Hab_Participativo{
+    font-size: 30px;
+}
+
+.Hab_Proativo{
+    font-size: 30px;
+}
+
+.Hab_Capacidade{
+    font-size: 20px;
+}
+
+.Hab_Análise{
+    font-size: 20px;
+} */
