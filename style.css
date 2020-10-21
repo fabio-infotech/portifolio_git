@@ -1,14 +1,4 @@
 /*TAG STYLE*/
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    color: blue;
-}
-
-h2{
-    font-family: sans-serif, Arial, Helvetica;
-    color: blue;
-}
-
 p{
     font-family: sans-serif, Arial, Helvetica;
 }
@@ -20,54 +10,71 @@ body{
 /*ID STYLE*/
 #Curso_Formatura{
     font-weight: 600;
-    color: red;
+    color: black;
 }
 
 #Cidade_Estado{
     font-weight: 600;
-    color: red;
+    color: black;
 }
 
 #Maravilhosa{
     font-weight: 600;
-    color: red;
+    color: black;
 }
 
-#Hab_Curioso{
+#Adoro{    
     font-weight: 600;
-    color: red;
-}
-
-#Hab_Atencioso{
-    font-weight: 600;
-    color: red;
+    color: black;
 }
 
 /*CLASS STYLE*/
 .Foto{
-    border-radius: 100%;
+    border-radius: 5%;
+    float:left;
+    padding: 10px;
+    background-color: gray;
+    margin: 35px;
+    overflow: auto;
+}
+
+.Nome{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.Descricao{
+    float: left;
+    max-width: 50%;
+    padding: 15px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.Habilidades{
+    float: top;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 35px;
+    max-width: 20%;
+    clear:both;
 }
 
 .Hab_Curioso{
-    font-size: 35px;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    text-decoration: underline;
 }
 
 .Hab_Atencioso{
-    font-size: 35px;
-}
-
-.Hab_Participativo{
-    font-size: 30px;
-}
-
-.Hab_Proativo{
-    font-size: 30px;
-}
-
-.Hab_Capacidade{
+    font-weight: 600;
     font-size: 20px;
-}
-
-.Hab_Análise{
-    font-size: 20px;
+    font-style: italic;
+    color: white;
+    text-decoration: underline;
 }
